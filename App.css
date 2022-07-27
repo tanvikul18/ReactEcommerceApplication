@@ -1,0 +1,190 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+  .cstTxt{
+    color:#fff;
+  }
+  .getF{
+    width:100%;
+    display: flex;
+  }
+  .btnSearch{
+    position: absolute;
+    top: 13px;
+    right: 448px;
+}
+.cardItems{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+padding:3rem;
+margin:2rem;
+width:18rem;
+}
+.cardItems:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.highlight{
+  border:2px solid blue;
+}
+
+.lmname{
+  width: 45px;
+  
+}
+.ddCategories
+{    
+  width: auto;
+  margin-left: -3px;
+  z-index: 1;}
+.cateDD,.Searchtxt,.Searchbtn{
+   display: flex;
+}
+.rowCst{
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+}
+.ddSearch{
+  position: relative;
+  top: 26px;
+  width: auto;
+}
+.form-control{
+  width:396px;
+  height: 26px;
+  margin-left:-25px
+}
+.pTxt{
+  position: absolute;
+  top: 20px;
+  right: 319px;
+}
+ .image img{
+     width:40%;
+ } 
+
+ .image{
+  display: flex;
+  justify-content: center;
+ }
+ .card-text{
+  color:black;
+  text-align: center;
+ }
+ .row{
+  display: flex;
+  width: 100%;
+ }
+ .cprice{
+  margin-left:40px;
+ }
+ .card{
+  cursor: pointer;
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+ }
+ .mx-auto{
+  width: 300px;
+ }
+ .col-md-4{
+  width: 22.33%;
+  margin:0.5%
+ }
+ .btn-warning{
+  margin: 2%;
+ }
+ .rProduct{
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+ }
+ .removeItem{
+  cursor: pointer;
+  margin-left:-29px;
+ }
+ body{
+  background:#E0E0E0;
+}
+.details {
+          border: 1.5px solid grey;
+          color: #212121;
+          width: 100%;
+          height: auto;
+          box-shadow: 0px 0px 10px #212121;
+      }
+
+      .cart {
+          background-color: #212121;
+          color: white;
+          margin-top: 0px;
+          font-size: 12px;
+          font-weight: 900;
+          position: relative;
+         
+          left: -26px;         
+          height: 39px;
+          padding-top: 9px;
+          box-shadow: 0px 5px 10px  #212121;
+      }
+
+      .card {
+          width: fit-content;
+          
+      }
+
+      .card-body {
+          width: fit-content;
+      }
+      .cardM{
+        position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+      }
+      .btn {
+          border-radius: 0;
+      }
+
+      .img-thumbnail {
+          border: none;
+      }
+      .img-thumbnail{
+        width: 25%;
+      }
+      .parentdiv{
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      }
+      .card {
+          box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+          border-radius: 5px;
+          padding-bottom: 10px;
+          
+      }
+      .container{
+        margin:1%
+      }
+
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
